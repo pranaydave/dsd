@@ -1,0 +1,20 @@
+Missing Values
+- Age
+
+Features
+- Passenger can be split
+- Cabin can be split
+- Name can be spliit into first name and last  name
+
+Missing value to replace
+HomePlanet      201
+CryoSleep       217
+Cabin           199
+Destination     182
+Age             179
+VIP             203
+RoomService     181
+FoodCourt       183
+ShoppingMall    208
+Spa             183
+VRDeck          188
