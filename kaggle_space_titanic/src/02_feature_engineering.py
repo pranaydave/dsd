@@ -3,8 +3,8 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder,OrdinalEncoder
 
-file_train = '/Users/pd186029/Documents/Pranay/Teradata/Development/full_stck/data_jarvis_data/data_insights_for_researchers/space_titanic/train.csv'
-file_test = '/Users/pd186029/Documents/Pranay/Teradata/Development/full_stck/data_jarvis_data/data_insights_for_researchers/space_titanic/test.csv'
+file_train = file_dir +'train.csv'
+file_test = file_dir +'test.csv'
 
 df_train = pd.read_csv(file_train,sep=',')
 df_test = pd.read_csv(file_test,sep=',')
