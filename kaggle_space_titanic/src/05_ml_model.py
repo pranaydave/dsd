@@ -9,7 +9,7 @@ import seaborn as sns
 test_size = 0.3
         
 ##random_state=42 (any constant value) will always give the same test train split
-dfX_train, dfX_test, dfy_train, dfy_test = train_test_split(df_train_mvrepl, df_train[target_column], test_size=test_size, random_state=0)
+dfX_train, dfX_test, dfy_train, dfy_test = train_test_split(df_train_mvrepl_rmoutlier, df_train1[target_column], test_size=test_size, random_state=0)
 
 pipeline = Pipeline([
 ('clf', GradientBoostingClassifier())

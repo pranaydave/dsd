@@ -12,7 +12,6 @@ df_test_trf.isna().any()
 #columns_mvrepl_no = ['RoomService','FoodCourt','ShoppingMall','Spa','VRDeck','PassengerId0','PassengerId1']
 columns_mvrepl_names= [x+'_mvrepl' for x in df_train_trf.columns]
 
-)
 
 # Apply KNNImputer
 imputer = KNNImputer(n_neighbors=5)  # Choose the number of neighbors
